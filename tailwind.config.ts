@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom disaster colors
+				alert: {
+					low: '#3b82f6',    // Blue
+					medium: '#f59e0b', // Amber
+					high: '#ef4444',   // Red
+					severe: '#7f1d1d', // Dark red
+				},
+				disaster: {
+					earthquake: '#8b5cf6', // Purple
+					flood: '#3b82f6',      // Blue
+					hurricane: '#f59e0b',  // Amber
+					wildfire: '#ef4444',   // Red
+					tsunami: '#06b6d4',    // Cyan
+					drought: '#d97706',    // Orange
 				}
 			},
 			borderRadius: {
@@ -69,28 +85,35 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			keyframes: {
-				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
+				"accordion-down": {
+					from: { height: '0' },
+					to: { height: 'var(--radix-accordion-content-height)' },
 				},
-				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
-					},
-					to: {
-						height: '0'
-					}
-				}
+				"accordion-up": {
+					from: { height: 'var(--radix-accordion-content-height)' },
+					to: { height: '0' },
+				},
+				"pulse-warning": {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.6' },
+				},
+				"fade-in": {
+					from: { opacity: '0' },
+					to: { opacity: '1' },
+				},
+				"slide-in": {
+					from: { transform: 'translateY(20px)', opacity: '0' },
+					to: { transform: 'translateY(0)', opacity: '1' },
+				},
 			},
 			animation: {
-				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
-		}
+				"accordion-down": "accordion-down 0.2s ease-out",
+				"accordion-up": "accordion-up 0.2s ease-out",
+				"pulse-warning": "pulse-warning 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+				"fade-in": "fade-in 0.3s ease-out",
+				"slide-in": "slide-in 0.5s ease-out",
+			},
+		},
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
