@@ -13,9 +13,9 @@ export default function Analytics() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold tracking-tight">Analytics</h1>
+        <h1 className="text-2xl font-bold tracking-tight">India Disaster Analytics</h1>
         <p className="text-muted-foreground">
-          View historical trends and prediction analytics
+          View historical trends and prediction analytics for Indian disasters
         </p>
       </div>
 
@@ -24,7 +24,7 @@ export default function Analytics() {
       <div className="grid gap-6">
         <DisasterChart 
           selectedTypes={selectedDisasterTypes}
-          title="Historical Disaster Trends (12 Months)" 
+          title="Historical India Disaster Trends (12 Months)" 
           className="h-96"
         />
       </div>

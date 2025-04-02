@@ -13,9 +13,9 @@ export default function Map() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold tracking-tight">Disaster Risk Map</h1>
+        <h1 className="text-2xl font-bold tracking-tight">India Disaster Risk Map</h1>
         <p className="text-muted-foreground">
-          View global disaster risk zones and current alerts
+          View disaster risk zones across India and current alerts
         </p>
       </div>
 

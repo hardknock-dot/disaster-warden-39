@@ -18,15 +18,15 @@ export default function Dashboard() {
   return (
     <div className="space-y-6">
       <AlertBanner 
-        message="Severe wildfire risk detected in Los Angeles County" 
+        message="Severe flood risk detected in Assam region" 
         level="high" 
       />
       
       <div className="flex flex-col gap-6">
         <div>
-          <h1 className="text-2xl font-bold tracking-tight">Disaster Prediction Dashboard</h1>
+          <h1 className="text-2xl font-bold tracking-tight">India Disaster Prediction Dashboard</h1>
           <p className="text-muted-foreground">
-            Monitor real-time disaster risks and alerts
+            Monitor real-time disaster risks and alerts across India
           </p>
         </div>
 
@@ -35,28 +35,28 @@ export default function Dashboard() {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           <StatusCard 
             title="Active Alerts"
-            value={12}
-            trend={{ value: 8, isPositive: false }}
+            value={14}
+            trend={{ value: 5, isPositive: false }}
             icon={<CloudRain className="h-5 w-5" />}
             alertLevel="medium"
           />
           <StatusCard 
             title="High Risk Zones"
-            value={3}
-            trend={{ value: 25, isPositive: false }}
+            value={4}
+            trend={{ value: 33, isPositive: false }}
             icon={<Flame className="h-5 w-5" />}
             alertLevel="high"
           />
           <StatusCard 
             title="Monitored Areas"
-            value={156}
-            description="Active monitoring across 12 countries"
+            value={28}
+            description="Active monitoring across all states and UTs"
             icon={<Wind className="h-5 w-5" />}
           />
           <StatusCard 
             title="Prediction Accuracy"
-            value="94.2%"
-            trend={{ value: 2, isPositive: true }}
+            value="92.8%"
+            trend={{ value: 1.5, isPositive: true }}
             icon={<BarChart3 className="h-5 w-5" />}
           />
         </div>

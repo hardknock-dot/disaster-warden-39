@@ -1,31 +1,30 @@
-
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, TooltipProps } from 'recharts';
 import { NameType, ValueType } from 'recharts/types/component/DefaultTooltipContent';
 import { DisasterType } from './DisasterTypeFilter';
 
-// Sample data for the chart
+// Sample data for Indian disaster trends
 const sampleData = [
-  { name: 'Jan', earthquake: 4, flood: 2, hurricane: 0, wildfire: 1, tsunami: 0, drought: 3 },
-  { name: 'Feb', earthquake: 3, flood: 1, hurricane: 0, wildfire: 0, tsunami: 1, drought: 4 },
-  { name: 'Mar', earthquake: 5, flood: 3, hurricane: 0, wildfire: 2, tsunami: 0, drought: 5 },
-  { name: 'Apr', earthquake: 2, flood: 5, hurricane: 0, wildfire: 3, tsunami: 0, drought: 4 },
-  { name: 'May', earthquake: 3, flood: 6, hurricane: 1, wildfire: 5, tsunami: 0, drought: 3 },
-  { name: 'Jun', earthquake: 1, flood: 4, hurricane: 2, wildfire: 7, tsunami: 0, drought: 5 },
-  { name: 'Jul', earthquake: 2, flood: 3, hurricane: 4, wildfire: 9, tsunami: 0, drought: 7 },
-  { name: 'Aug', earthquake: 3, flood: 2, hurricane: 7, wildfire: 8, tsunami: 1, drought: 8 },
-  { name: 'Sep', earthquake: 4, flood: 3, hurricane: 5, wildfire: 6, tsunami: 0, drought: 6 },
-  { name: 'Oct', earthquake: 3, flood: 4, hurricane: 2, wildfire: 4, tsunami: 0, drought: 5 },
-  { name: 'Nov', earthquake: 5, flood: 5, hurricane: 1, wildfire: 2, tsunami: 1, drought: 4 },
-  { name: 'Dec', earthquake: 6, flood: 3, hurricane: 0, wildfire: 1, tsunami: 0, drought: 3 },
+  { name: 'Jan', earthquake: 2, flood: 1, cyclone: 0, landslide: 0, drought: 2, heatwave: 1 },
+  { name: 'Feb', earthquake: 1, flood: 0, cyclone: 0, landslide: 0, drought: 3, heatwave: 2 },
+  { name: 'Mar', earthquake: 2, flood: 1, cyclone: 0, landslide: 1, drought: 3, heatwave: 3 },
+  { name: 'Apr', earthquake: 1, flood: 2, cyclone: 0, landslide: 2, drought: 4, heatwave: 4 },
+  { name: 'May', earthquake: 0, flood: 3, cyclone: 1, landslide: 3, drought: 5, heatwave: 7 },
+  { name: 'Jun', earthquake: 1, flood: 7, cyclone: 4, landslide: 6, drought: 3, heatwave: 5 },
+  { name: 'Jul', earthquake: 0, flood: 9, cyclone: 5, landslide: 8, drought: 2, heatwave: 3 },
+  { name: 'Aug', earthquake: 1, flood: 10, cyclone: 3, landslide: 7, drought: 1, heatwave: 2 },
+  { name: 'Sep', earthquake: 2, flood: 7, cyclone: 4, landslide: 4, drought: 1, heatwave: 1 },
+  { name: 'Oct', earthquake: 1, flood: 4, cyclone: 6, landslide: 2, drought: 2, heatwave: 0 },
+  { name: 'Nov', earthquake: 2, flood: 2, cyclone: 2, landslide: 1, drought: 2, heatwave: 0 },
+  { name: 'Dec', earthquake: 3, flood: 1, cyclone: 0, landslide: 0, drought: 2, heatwave: 0 },
 ];
 
 const disasterColors: Record<DisasterType, string> = {
   earthquake: '#8b5cf6', // Purple
   flood: '#3b82f6',      // Blue
-  hurricane: '#f59e0b',  // Amber
-  wildfire: '#ef4444',   // Red
-  tsunami: '#06b6d4',    // Cyan
+  cyclone: '#f59e0b',    // Amber
+  landslide: '#84cc16',  // Lime
   drought: '#d97706',    // Orange
+  heatwave: '#ef4444',   // Red
 };
 
 type DisasterChartProps = {

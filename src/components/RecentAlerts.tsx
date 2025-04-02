@@ -11,36 +11,36 @@ type Alert = {
   type: DisasterType;
 };
 
-// Sample data for recent alerts
+// Sample data for recent alerts in India
 const sampleAlerts: Alert[] = [
   {
     id: "alert1",
     title: "Flood Warning",
-    location: "New Orleans, LA",
+    location: "Assam",
     timestamp: "2023-10-15T08:30:00",
-    level: "high",
+    level: "severe",
     type: "flood",
   },
   {
     id: "alert2",
-    title: "Wildfire Alert",
-    location: "Los Angeles, CA",
+    title: "Cyclone Alert",
+    location: "Odisha Coast",
     timestamp: "2023-10-14T14:45:00",
-    level: "severe",
-    type: "wildfire",
+    level: "high",
+    type: "cyclone",
   },
   {
     id: "alert3",
-    title: "Hurricane Watch",
-    location: "Miami, FL",
+    title: "Landslide Warning",
+    location: "Himachal Pradesh",
     timestamp: "2023-10-13T11:15:00",
     level: "medium",
-    type: "hurricane",
+    type: "landslide",
   },
   {
     id: "alert4",
     title: "Earthquake Advisory",
-    location: "San Francisco, CA",
+    location: "Gujarat",
     timestamp: "2023-10-12T09:20:00",
     level: "low",
     type: "earthquake",

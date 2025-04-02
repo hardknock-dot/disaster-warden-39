@@ -6,18 +6,18 @@ import { cn } from "@/lib/utils";
 export type DisasterType = 
   | "earthquake" 
   | "flood" 
-  | "hurricane" 
-  | "wildfire" 
-  | "tsunami" 
-  | "drought";
+  | "cyclone" 
+  | "landslide" 
+  | "drought" 
+  | "heatwave";
 
 const disasterTypes: { id: DisasterType; label: string }[] = [
   { id: "earthquake", label: "Earthquake" },
   { id: "flood", label: "Flood" },
-  { id: "hurricane", label: "Hurricane" },
-  { id: "wildfire", label: "Wildfire" },
-  { id: "tsunami", label: "Tsunami" },
+  { id: "cyclone", label: "Cyclone" },
+  { id: "landslide", label: "Landslide" },
   { id: "drought", label: "Drought" },
+  { id: "heatwave", label: "Heatwave" },
 ];
 
 type DisasterTypeFilterProps = {
