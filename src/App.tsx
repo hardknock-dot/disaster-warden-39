@@ -11,6 +11,7 @@ import Alerts from "./pages/Alerts";
 import Analytics from "./pages/Analytics";
 import Resources from "./pages/Resources";
 import Settings from "./pages/Settings";
+import Upload from "./pages/Upload";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +30,7 @@ const App = () => (
             <Route path="analytics" element={<Analytics />} />
             <Route path="resources" element={<Resources />} />
             <Route path="settings" element={<Settings />} />
+            <Route path="upload" element={<Upload />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
