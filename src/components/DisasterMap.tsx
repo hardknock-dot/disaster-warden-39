@@ -1,7 +1,8 @@
-
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { MapPin } from "lucide-react";
 import { DisasterType } from "./DisasterTypeFilter";
+import mapboxgl from 'mapbox-gl';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 type MapLocation = {
   id: string;
@@ -88,85 +89,90 @@ type DisasterMapProps = {
 export function DisasterMap({ selectedTypes = [], className }: DisasterMapProps) {
   const [locations, setLocations] = useState<MapLocation[]>(sampleLocations);
   const [selectedLocation, setSelectedLocation] = useState<MapLocation | null>(null);
+  const mapContainer = useRef<HTMLDivElement>(null);
+  const map = useRef<mapboxgl.Map | null>(null);
+  const markers = useRef<mapboxgl.Marker[]>([]);
 
-  // Filter locations based on selected disaster types
+  // Initialize map
   useEffect(() => {
-    if (selectedTypes.length === 0) {
-      setLocations(sampleLocations);
-    } else {
-      setLocations(
-        sampleLocations.filter((loc) => selectedTypes.includes(loc.type))
-      );
+    if (!mapContainer.current || map.current) return;
+
+    // You'll need to replace this with your Mapbox token
+    mapboxgl.accessToken = 'YOUR_MAPBOX_TOKEN';
+    
+    map.current = new mapboxgl.Map({
+      container: mapContainer.current,
+      style: 'mapbox://styles/mapbox/light-v11',
+      center: [78.9629, 20.5937], // Center of India
+      zoom: 4
+    });
+
+    // Add navigation controls
+    map.current.addControl(new mapboxgl.NavigationControl(), 'top-right');
+
+    return () => {
+      map.current?.remove();
+    };
+  }, []);
+
+  // Update markers when locations or selected types change
+  useEffect(() => {
+    if (!map.current) return;
+
+    // Remove existing markers
+    markers.current.forEach(marker => marker.remove());
+    markers.current = [];
+
+    // Filter locations based on selected types
+    const filteredLocations = selectedTypes.length > 0
+      ? locations.filter(loc => selectedTypes.includes(loc.type))
+      : locations;
+
+    // Add new markers
+    filteredLocations.forEach(location => {
+      const el = document.createElement('div');
+      el.className = `marker-${location.risk}`;
+      
+      const marker = new mapboxgl.Marker({
+        element: el,
+        color: getRiskColor(location.risk)
+      })
+        .setLngLat([location.lng, location.lat])
+        .setPopup(
+          new mapboxgl.Popup({ offset: 25 })
+            .setHTML(
+              `<h3>${location.name}</h3>
+               <p>${location.type} Risk Level: ${location.risk}</p>`
+            )
+        )
+        .addTo(map.current!);
+
+      markers.current.push(marker);
+    });
+  }, [locations, selectedTypes]);
+
+  const getRiskColor = (risk: "low" | "medium" | "high" | "severe") => {
+    switch (risk) {
+      case "low": return "#3b82f6";
+      case "medium": return "#f59e0b";
+      case "high": return "#ef4444";
+      case "severe": return "#7f1d1d";
+      default: return "#3b82f6";
     }
-  }, [selectedTypes]);
+  };
 
-  // This is a placeholder for a real map implementation
-  // In a real app, you would use a library like Google Maps, Mapbox, or Leaflet
   return (
-    <div className={`relative h-96 overflow-hidden bg-gray-100 map-container ${className}`}>
-      <div className="absolute inset-0 p-4">
-        {/* Map placeholder */}
-        <div className="h-full w-full bg-blue-50 rounded-md flex items-center justify-center">
-          <div className="text-center p-4">
-            <p className="text-muted-foreground mb-2">Interactive Map</p>
-            <p className="text-xs text-muted-foreground">
-              Showing {locations.length} disaster risk locations
-              {selectedTypes.length > 0 && ` for selected disaster types`}
-            </p>
-          </div>
-        </div>
-
-        {/* Map pins */}
-        {locations.map((location) => (
-          <button
-            key={location.id}
-            className={`absolute transform -translate-x-1/2 -translate-y-1/2 hover:z-10`}
-            style={{
-              // This positioning is just for demonstration
-              // In a real map, you would convert lat/lng to pixel coordinates
-              left: `${((location.lng + 180) / 360) * 100}%`,
-              top: `${((90 - location.lat) / 180) * 100}%`,
-            }}
-            onClick={() => setSelectedLocation(location)}
-          >
-            <MapPin
-              className={`h-6 w-6 text-alert-${location.risk} filter drop-shadow hover:scale-125 transition-transform`}
-            />
-          </button>
-        ))}
-
-        {/* Location info popup */}
-        {selectedLocation && (
-          <div
-            className="absolute bg-white p-3 rounded-md shadow-lg z-20 max-w-xs"
-            style={{
-              left: `${((selectedLocation.lng + 180) / 360) * 100}%`,
-              top: `${((90 - selectedLocation.lat) / 180) * 100 - 12}%`,
-              transform: "translate(-50%, -100%)",
-            }}
-          >
-            <div className="flex justify-between items-start">
-              <h3 className="font-medium">{selectedLocation.name}</h3>
-              <button
-                onClick={() => setSelectedLocation(null)}
-                className="text-muted-foreground hover:text-foreground"
-              >
-                ×
-              </button>
-            </div>
-            <p className="text-sm text-muted-foreground">
-              {selectedLocation.type.charAt(0).toUpperCase() + selectedLocation.type.slice(1)} Risk
-            </p>
-            <div className="mt-1">
-              <span
-                className={`alert-badge alert-badge-${selectedLocation.risk}`}
-              >
-                {selectedLocation.risk.charAt(0).toUpperCase() + selectedLocation.risk.slice(1)} Risk
-              </span>
-            </div>
-          </div>
-        )}
-      </div>
+    <div className={`relative h-96 ${className}`}>
+      <div ref={mapContainer} className="absolute inset-0 rounded-lg shadow-lg" />
+      <style>{`
+        .mapboxgl-marker {
+          cursor: pointer;
+        }
+        .marker-low { background-color: #3b82f6; }
+        .marker-medium { background-color: #f59e0b; }
+        .marker-high { background-color: #ef4444; }
+        .marker-severe { background-color: #7f1d1d; }
+      `}</style>
     </div>
   );
 }
