@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef } from "react";
-import { MapPin } from "lucide-react";
 import { DisasterType } from "./DisasterTypeFilter";
-import mapboxgl from 'mapbox-gl';
-import 'mapbox-gl/dist/mapbox-gl.css';
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 
 type MapLocation = {
   id: string;
@@ -88,30 +87,25 @@ type DisasterMapProps = {
 
 export function DisasterMap({ selectedTypes = [], className }: DisasterMapProps) {
   const [locations, setLocations] = useState<MapLocation[]>(sampleLocations);
-  const [selectedLocation, setSelectedLocation] = useState<MapLocation | null>(null);
   const mapContainer = useRef<HTMLDivElement>(null);
-  const map = useRef<mapboxgl.Map | null>(null);
-  const markers = useRef<mapboxgl.Marker[]>([]);
+  const map = useRef<L.Map | null>(null);
+  const markers = useRef<L.Marker[]>([]);
 
   // Initialize map
   useEffect(() => {
     if (!mapContainer.current || map.current) return;
 
-    // You'll need to replace this with your Mapbox token
-    mapboxgl.accessToken = 'YOUR_MAPBOX_TOKEN';
-    
-    map.current = new mapboxgl.Map({
-      container: mapContainer.current,
-      style: 'mapbox://styles/mapbox/light-v11',
-      center: [78.9629, 20.5937], // Center of India
-      zoom: 4
-    });
+    map.current = L.map(mapContainer.current).setView([20.5937, 78.9629], 4);
 
-    // Add navigation controls
-    map.current.addControl(new mapboxgl.NavigationControl(), 'top-right');
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map.current);
 
     return () => {
-      map.current?.remove();
+      if (map.current) {
+        map.current.remove();
+        map.current = null;
+      }
     };
   }, []);
 
@@ -130,21 +124,17 @@ export function DisasterMap({ selectedTypes = [], className }: DisasterMapProps)
 
     // Add new markers
     filteredLocations.forEach(location => {
-      const el = document.createElement('div');
-      el.className = `marker-${location.risk}`;
-      
-      const marker = new mapboxgl.Marker({
-        element: el,
-        color: getRiskColor(location.risk)
-      })
-        .setLngLat([location.lng, location.lat])
-        .setPopup(
-          new mapboxgl.Popup({ offset: 25 })
-            .setHTML(
-              `<h3>${location.name}</h3>
-               <p>${location.type} Risk Level: ${location.risk}</p>`
-            )
-        )
+      const markerIcon = L.divIcon({
+        className: `marker-${location.risk}`,
+        html: `<div style="width: 12px; height: 12px; border-radius: 50%; background-color: ${getRiskColor(location.risk)}"></div>`,
+        iconSize: [12, 12]
+      });
+
+      const marker = L.marker([location.lat, location.lng], { icon: markerIcon })
+        .bindPopup(`
+          <h3>${location.name}</h3>
+          <p>${location.type} Risk Level: ${location.risk}</p>
+        `)
         .addTo(map.current!);
 
       markers.current.push(marker);
@@ -165,13 +155,15 @@ export function DisasterMap({ selectedTypes = [], className }: DisasterMapProps)
     <div className={`relative h-96 ${className}`}>
       <div ref={mapContainer} className="absolute inset-0 rounded-lg shadow-lg" />
       <style>{`
-        .mapboxgl-marker {
+        .leaflet-container {
+          height: 100%;
+          width: 100%;
+          border-radius: 0.5rem;
+        }
+        .marker-low, .marker-medium, .marker-high, .marker-severe {
+          border-radius: 50%;
           cursor: pointer;
         }
-        .marker-low { background-color: #3b82f6; }
-        .marker-medium { background-color: #f59e0b; }
-        .marker-high { background-color: #ef4444; }
-        .marker-severe { background-color: #7f1d1d; }
       `}</style>
     </div>
   );
