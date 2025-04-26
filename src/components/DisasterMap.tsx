@@ -1,3 +1,4 @@
+
 import { useState, useEffect, useRef } from "react";
 import { DisasterType } from "./DisasterTypeFilter";
 import L from 'leaflet';
@@ -94,6 +95,19 @@ export function DisasterMap({ selectedTypes = [], className }: DisasterMapProps)
   // Initialize map
   useEffect(() => {
     if (!mapContainer.current || map.current) return;
+
+    // Fix for Leaflet icon issue
+    // This addresses the common issue with Leaflet markers not showing up correctly
+    const defaultIcon = L.icon({
+      iconUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png',
+      shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41]
+    });
+    
+    L.Marker.prototype.options.icon = defaultIcon;
 
     map.current = L.map(mapContainer.current).setView([20.5937, 78.9629], 4);
 
