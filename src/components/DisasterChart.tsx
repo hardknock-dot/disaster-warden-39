@@ -4,18 +4,18 @@ import { DisasterType } from './DisasterTypeFilter';
 
 // Sample data for Indian disaster trends
 const sampleData = [
-  { name: 'Jan', earthquake: 2, flood: 1, cyclone: 0, landslide: 0, drought: 2, heatwave: 1 },
-  { name: 'Feb', earthquake: 1, flood: 0, cyclone: 0, landslide: 0, drought: 3, heatwave: 2 },
-  { name: 'Mar', earthquake: 2, flood: 1, cyclone: 0, landslide: 1, drought: 3, heatwave: 3 },
-  { name: 'Apr', earthquake: 1, flood: 2, cyclone: 0, landslide: 2, drought: 4, heatwave: 4 },
-  { name: 'May', earthquake: 0, flood: 3, cyclone: 1, landslide: 3, drought: 5, heatwave: 7 },
-  { name: 'Jun', earthquake: 1, flood: 7, cyclone: 4, landslide: 6, drought: 3, heatwave: 5 },
-  { name: 'Jul', earthquake: 0, flood: 9, cyclone: 5, landslide: 8, drought: 2, heatwave: 3 },
-  { name: 'Aug', earthquake: 1, flood: 10, cyclone: 3, landslide: 7, drought: 1, heatwave: 2 },
-  { name: 'Sep', earthquake: 2, flood: 7, cyclone: 4, landslide: 4, drought: 1, heatwave: 1 },
-  { name: 'Oct', earthquake: 1, flood: 4, cyclone: 6, landslide: 2, drought: 2, heatwave: 0 },
-  { name: 'Nov', earthquake: 2, flood: 2, cyclone: 2, landslide: 1, drought: 2, heatwave: 0 },
-  { name: 'Dec', earthquake: 3, flood: 1, cyclone: 0, landslide: 0, drought: 2, heatwave: 0 },
+  {'name': 'Jan', 'earthquake': 0, 'flood': 0, 'cyclone': 0, 'landslide': 0, 'drought': 0, 'heatwave': 0},
+  {'name': 'Feb', 'earthquake': 0, 'flood': 0, 'cyclone': 0, 'landslide': 0, 'drought': 0, 'heatwave': 0},
+  {'name': 'Mar', 'earthquake': 0, 'flood': 0, 'cyclone': 0, 'landslide': 0, 'drought': 0, 'heatwave': 0},
+  {'name': 'Apr', 'earthquake': 1, 'flood': 0, 'cyclone': 0, 'landslide': 0, 'drought': 0, 'heatwave': 0},
+  {'name': 'May', 'earthquake': 0, 'flood': 0, 'cyclone': 0, 'landslide': 0, 'drought': 0, 'heatwave': 0},
+  {'name': 'Jun', 'earthquake': 0, 'flood': 2, 'cyclone': 0, 'landslide': 0, 'drought': 0, 'heatwave': 0},
+  {'name': 'Jul', 'earthquake': 0, 'flood': 2, 'cyclone': 0, 'landslide': 1, 'drought': 0, 'heatwave': 0},
+  {'name': 'Aug', 'earthquake': 0, 'flood': 0, 'cyclone': 0, 'landslide': 1, 'drought': 0, 'heatwave': 0},
+  {'name': 'Sep', 'earthquake': 0, 'flood': 1, 'cyclone': 0, 'landslide': 0, 'drought': 0, 'heatwave': 0},
+  {'name': 'Oct', 'earthquake': 0, 'flood': 0, 'cyclone': 0, 'landslide': 0, 'drought': 0, 'heatwave': 0},
+  {'name': 'Nov', 'earthquake': 0, 'flood': 0, 'cyclone': 0, 'landslide': 0, 'drought': 0, 'heatwave': 0},
+  {'name': 'Dec', 'earthquake': 0, 'flood': 0, 'cyclone': 0, 'landslide': 0, 'drought': 0, 'heatwave': 0},
 ];
 
 const disasterColors: Record<DisasterType, string> = {

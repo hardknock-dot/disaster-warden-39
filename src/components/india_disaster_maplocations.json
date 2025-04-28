@@ -1,0 +1,1253 @@
+[
+  {
+    "id": "296f732d-ab75-4883-84bd-25b99a34c23f",
+    "name": "Kangra",
+    "lat": 32.04,
+    "lng": 76.16,
+    "risk": "severe",
+    "type": "earthquake"
+  },
+  {
+    "id": "ee735fbc-0991-4d35-b3ec-ce2d64bc8d18",
+    "name": "Assam province",
+    "lat": 28.5,
+    "lng": 96.5,
+    "risk": "low",
+    "type": "earthquake"
+  },
+  {
+    "id": "eefa1847-b1e3-4181-aa8c-8fead2b1b3c6",
+    "name": "Anjar, Bhuj, Gandhidham, Kandla",
+    "lat": 23.0,
+    "lng": 70.0,
+    "risk": "high",
+    "type": "earthquake"
+  },
+  {
+    "id": "cf99a214-41c0-4e1d-98e7-2d62249af681",
+    "name": "Maharashtra, Koynana",
+    "lat": 17.412,
+    "lng": 73.885,
+    "risk": "severe",
+    "type": "earthquake"
+  },
+  {
+    "id": "68255079-0403-40a1-9a31-5dc51d7b6ee3",
+    "name": "Broach",
+    "lat": 21.7,
+    "lng": 73.0,
+    "risk": "severe",
+    "type": "earthquake"
+  },
+  {
+    "id": "0efc4734-74d0-4c75-91a6-dcc83dd5dbde",
+    "name": "Kinnaur district, Kashmir; Himachal Pradesh",
+    "lat": 32.455,
+    "lng": 78.43,
+    "risk": "high",
+    "type": "earthquake"
+  },
+  {
+    "id": "ab10dea2-ba48-451a-8a17-f99aa226e366",
+    "name": "Jammu (Kashmir)",
+    "lat": 32.913,
+    "lng": 75.633,
+    "risk": "severe",
+    "type": "earthquake"
+  },
+  {
+    "id": "93104f31-9fde-4a8e-a037-94c53ac880fb",
+    "name": "Cachar district (Assam)",
+    "lat": 24.4,
+    "lng": 92.34,
+    "risk": "low",
+    "type": "earthquake"
+  },
+  {
+    "id": "10c20e1f-915b-40e0-a402-b8b20f17d1b0",
+    "name": "Dharmsala",
+    "lat": 32.128,
+    "lng": 76.374,
+    "risk": "medium",
+    "type": "earthquake"
+  },
+
+  {
+    "id": "7421de54-a898-4b6f-b601-5ad4dd668099",
+    "name": "Harsil (near Gangotri, Uttarkashi's Bhagirathi valley, Uttar Pradesh)",
+    "lat": 30.78,
+    "lng": 78.774,
+    "risk": "severe",
+    "type": "earthquake"
+  },
+  {
+    "id": "d493f2fa-52ce-4062-8b0a-9812ebf67085",
+    "name": "Killari, Haegoan, Sostour, Holi (Latur and Osmanabad districts, Maharastra state)",
+    "lat": 16.4,
+    "lng": 74.2,
+    "risk": "severe",
+    "type": "earthquake"
+  },
+  {
+    "id": "440238f1-468a-4072-b859-d99a17c1374d",
+    "name": "Latur area",
+    "lat": 18.12,
+    "lng": 76.533,
+    "risk": "severe",
+    "type": "earthquake"
+  },
+  {
+    "id": "150e2b86-1a5a-445d-bcde-74293c4e5493",
+    "name": "Jabalpur (Madhya Pradesh)",
+    "lat": 23.083,
+    "lng": 80.041,
+    "risk": "low",
+    "type": "earthquake"
+  },
+  {
+    "id": "e62acd0f-202a-44b8-8fa1-3ea97a86e862",
+    "name": "Chamoli, Rudraprayag, Bageshwar (new district), Tehri Garhwal, Pauri Garhwal district",
+    "lat": 30.512,
+    "lng": 79.403,
+    "risk": "severe",
+    "type": "earthquake"
+  },
+  {
+    "id": "57c81bd8-ba8b-4a95-b378-3a422952db67",
+    "name": "Ahmadabad, Amreli, Anand, Banas Kantha, Bharuch, Bhavnagar, Dahdod, Gandhinagar, Jamnagar, Junagadh, Kachchh, Kheda, Mahesana, Navsari, Patan, Porbandar, Rajkot, Sabar Kantha, Surat, Surendranagar, Vadodara districts (Gurajat province)",
+    "lat": 23.419,
+    "lng": 70.232,
+    "risk": "low",
+    "type": "earthquake"
+  },
+  {
+    "id": "2ae125a3-1ab3-4f1f-acc6-dffad4a5ff34",
+    "name": "Andaman Islands district (Andaman and Nicobar province)",
+    "lat": 13.036,
+    "lng": 93.068,
+    "risk": "severe",
+    "type": "earthquake"
+  },
+
+  {
+    "id": "42b12475-5b79-447b-9640-2ebcee877cca",
+    "name": "Administrative unit not available districts (Jammu and Kashmir province)",
+    "lat": 34.539,
+    "lng": 73.588,
+    "risk": "low",
+    "type": "earthquake"
+  },
+  {
+    "id": "b73f9253-3840-4190-aa12-570ac1596114",
+    "name": "Jammu and Kashmir provinces",
+    "lat": 32.89,
+    "lng": 73.88,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "bf2d44e3-8468-4c12-b2e3-4d1b45ced16d",
+    "name": "Gajapati, Rayagada districts (Orissa province)",
+    "lat": 19.17,
+    "lng": 83.65,
+    "risk": "medium",
+    "type": "flood"
+  },
+  {
+    "id": "d37aa0a1-c4ac-4c9a-ac81-9a20fb0e9a8e",
+    "name": "Andhra Pradesh, Gujarat, Maharashtra, Chhattisgarh, Rajasthan, Madhya Pradesh, Orissa, Karnataka provinces",
+    "lat": 20.19,
+    "lng": 73.82,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "f0cb2b35-86b5-47a9-b6cb-476c06cb6486",
+    "name": "Adilabad, Hyderabad, Karimnagar, Khammam, Mahbubnagar, Medak, Nalgonda, Nizamabad, Rangareddi, Warangal, Srikakulam, Krishna districts (Andhra Pradesh province)",
+    "lat": 17.43,
+    "lng": 82.81,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "587db649-9dbb-44d9-ae4a-69508a3798a4",
+    "name": "Assam, Tripura provinces",
+    "lat": 26.6,
+    "lng": 94.02,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "dbc72d85-e501-4c2b-ad27-17acb94a33da",
+    "name": "Kerala province",
+    "lat": 10.54,
+    "lng": 76.05,
+    "risk": "medium",
+    "type": "flood"
+  },
+  {
+    "id": "1bfc93e9-e522-404a-913b-921f9c5d2203",
+    "name": "Maharashtra, Gujarat provinces",
+    "lat": 18.73,
+    "lng": 75.23,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "0aa24322-8b1e-48f2-a955-9470ca89fe91",
+    "name": "Ballia, Chandauli districts (Uttar Pradesh province)",
+    "lat": 25.62,
+    "lng": 83.67,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "684b444d-7c3c-4fb1-891d-f79479bab8b8",
+    "name": "Navsari, The Dangs districts (Gujarat)",
+    "lat": 22.41,
+    "lng": 71.31,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "a4d72773-5d94-4e73-ade9-fb8b99b3c0ca",
+    "name": "Jammu and Kashmir provinces",
+    "lat": 34.61,
+    "lng": 73.2,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "086d5a46-c55f-43cd-8540-f2f547fe7386",
+    "name": "Balrampur, Bahraich, Lakhimpur Kheri, Shravasti, Gonda, Bara Banki districts (Uttar Pradesh province)",
+    "lat": 27.59,
+    "lng": 81.52,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "712aa839-fcfb-4091-b2be-a72badef2f38",
+    "name": "Tamil Nadu, Andhra Pradesh provinces",
+    "lat": 14.13,
+    "lng": 79.93,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "d2081b05-0e24-4384-a1eb-ccd2ae0e644e",
+    "name": "Orissa, Andhra Pradesh, Chhattisgarh provinces",
+    "lat": 18.1,
+    "lng": 81.53,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "84cbc7b9-e565-473c-84c5-5cbd13401270",
+    "name": "Kurnool, Mahbubnagar, Guntur, Prakasam, East Godavari, West Godavari, Anantapur, Cuddapah districts (Andhra Pradesh province), Thrissur district (Kerala province), Belgaum, Bijapur, Bagalkot, Kodagu, Hassan, Mysore districts (Karnataka province), Mumbai City, Pune districts (Maharashtra province)",
+    "lat": 14.94,
+    "lng": 78.16,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "8be86559-90f5-414b-906a-d20a7427fec6",
+    "name": "Himachal Pradesh province",
+    "lat": 31.24,
+    "lng": 76.53,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "c63673cc-b50e-40d4-8777-79da8703851b",
+    "name": "Baleshwar, Kendrapara, Bhadrak, Jagatsinghpur, Jajpur, Mayurbhanj, Khordha, Cuttack, Puri, Kandhamal districts (Orissa province), Kolkata, South 24 Parganas, East Midnapore, West Midnapore, Hughli districts (West Bengal province)",
+    "lat": 20.91,
+    "lng": 86.4,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "1b3c5ffa-8ed7-41a3-b5d4-fa25c7d31a35",
+    "name": "Lakhimpur, Dhemaji, Cachar, Karimganj, Hailakandi, Darrang, Dibrugarh districts (Assam province)",
+    "lat": 26.26,
+    "lng": 94.02,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "69c964f6-a296-460e-9901-6f8f0a7992db",
+    "name": "Junagadh district (Daman and Diu province), Amreli, Bhavnagar, Jamnagar, Junagadh, Porbandar, Rajkot, Surendranagar districts (Gujarat province), Rajasthan, Madhya Pradesh",
+    "lat": 22.02,
+    "lng": 72.25,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "0ed2b6ed-c305-47d7-9ffc-783fc4e60917",
+    "name": "Amravati, Mumbai City, Mumbai Suburban, Raigarh, Ratnagiri, Sindhudurg, Thane districts (Maharashtra province)",
+    "lat": 21.03,
+    "lng": 77.52,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "e609174e-b40e-40a3-94c4-4ad4153ac93c",
+    "name": "Raipur, Bilaspur, Mahasamund, Durg districts (Chhattisgarh province)",
+    "lat": 20.05,
+    "lng": 81.86,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "f9997254-ce48-44cd-adac-a7ca6ff3a1e2",
+    "name": "Udaipur, Amarpur cities (South Tripura district, Tripura province), Sonamura citiy (West Tripura district, Tripura province)",
+    "lat": 23.92,
+    "lng": 91.23,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "2b1c478e-1de1-4b57-9a1e-3605c088a543",
+    "name": "Bihar, Uttar Pradesh, Assam, Orissa, West Bengal provinces",
+    "lat": 22.63,
+    "lng": 88.49,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "0ef71683-5f8f-4faa-96ff-6b9ba5190dc0",
+    "name": "Gujarat province",
+    "lat": 22.68,
+    "lng": 70.93,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "c6cc848f-ac39-404c-be1f-1e0df4a3d0e5",
+    "name": "Kurnool, Cuddapah, Warangal, Nalgonda, Karimnagar, Mahbubnagar, Anantapur, Nellore, Krishna districts (Andhra Pradesh province), Gadag district (Karnataka province)",
+    "lat": 15.71,
+    "lng": 79.88,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "8468b689-0f16-4d62-8361-d59084aa63a3",
+    "name": "Andhra Pradesh, Tamil Nadu province",
+    "lat": 12.73,
+    "lng": 79.7,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "2b230c86-6eca-4e1a-8619-8e585611e6f6",
+    "name": "Cuttack, Puri, Khordha, Jajpur, Jagatsinghpur districts (Orissa province)",
+    "lat": 20.45,
+    "lng": 86.2,
+    "risk": "medium",
+    "type": "flood"
+  },
+  {
+    "id": "37bdc468-53ac-4329-9c61-320eb570822e",
+    "name": "Assam, Arunachal Pradesh, Meghalaya, Manipur provinces",
+    "lat": 27.58,
+    "lng": 95.26,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "1a33bae4-6295-4424-a602-242bf1a4f1f9",
+    "name": "Kerala province",
+    "lat": 10.39,
+    "lng": 76.31,
+    "risk": "medium",
+    "type": "flood"
+  },
+  {
+    "id": "e2c7e44a-385c-46a8-8fa7-b3ffa13a8ee5",
+    "name": "Lakhimpu, Dhemaji, Sonitpur districts (Assam province), West Bengal, Orissa, Bihar, Gujarat, Goa, Haryana, Kerala, Karnataka, Maharastra, Madhya Pradesh, Punjab, Rajasthan, Uttar Pradesh, Tamil Nadu, Arunachal Pradesh, Uttarakhand, Jharkhand provinces",
+    "lat": 25.18,
+    "lng": 91.54,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "4ad90bda-9bf0-48f8-bbf2-2ff83012266a",
+    "name": "Muzaffarpur, Supaul, Patna, Katihar, Nalanda, Araria, Pashchim Champaran, Sheikhpura, Saharsa, Purnia, Saran, Begusarai, Bhagalpur, Madhepura, Vaishali, Khagaria districts (Bihar province), Assam province",
+    "lat": 22.044,
+    "lng": 94.55,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "8f040572-6c32-415f-9d25-cca885966d68",
+    "name": "Khammam, West Godavari, Krishna, Guntur districts (Andhra Pradesh province)",
+    "lat": 16.65,
+    "lng": 81.38,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "032e5690-7c4e-44f1-9e3e-d1190b460cde",
+    "name": "Lakhimpur, Jorhat districts (Assam province), Uttar Pradesh, Bihar provinces",
+    "lat": 27.5,
+    "lng": 89.79,
+    "risk": "medium",
+    "type": "flood"
+  },
+  {
+    "id": "a312a1c8-bef0-4fa0-b5da-67ff29afcfaf",
+    "name": "Tamil Nadu, Karnataka provinces",
+    "lat": 10.76,
+    "lng": 78.72,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "3a1d1949-c43e-43e3-ac4c-e9927efb02c8",
+    "name": "Ooty, Coonoor cities (Nilgiris district, Tamil Nadu)",
+    "lat": 11.47,
+    "lng": 77.85,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "59f7ecc1-8909-4b7f-85bd-df004e2fa3fa",
+    "name": "Belgaum, Gulbarga, Bijapur, Raichur, Dharwad, Bagalkot, Bellary, Koppal, Haveri, Bidar, Gadag, Davanegere, Uttar Kannand, Dakshin Kannad districts (Karnataka province), Kurnool, Mahbubnagar, Karimnagar, Anantapur, Krishna, Cuddapah, Guntur, Khammam, Nalgonda districts (Andhra Pradesh province), Maharashtra province",
+    "lat": 15.71,
+    "lng": 78.23,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "1562d751-2908-4e6f-89d5-3f757e857b5f",
+    "name": "Leh, Cholglamsar villages (72785 district, Jammu and Kashmir province)",
+    "lat": 33.53,
+    "lng": 76.12,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "6f5bba42-2026-49c9-9be6-c258a6375f68",
+    "name": "Almora, Naini Tal districts (Uttarakhand province), Bihar, Uttar Pradesh provinces",
+    "lat": 26.73,
+    "lng": 82.84,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "ac51a642-e37d-4217-a0fa-4d9029c3fdde",
+    "name": "Ambala, Kurukshetra districts (Haryana province), Punjab, Kerala provinces",
+    "lat": 30.18,
+    "lng": 74.77,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "7fa6696d-de70-4327-995e-ccb32e78368e",
+    "name": "Andhra Pradesh province",
+    "lat": 15.22,
+    "lng": 79.48,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "9bdb10ea-cd8a-4797-a9e1-1cd7701148da",
+    "name": "Lakhimpur district (Assam province)",
+    "lat": 26.235,
+    "lng": 92.25,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "b4cde7c7-9397-4187-abc5-5d1938f8ff54",
+    "name": "Punjab, Haryana, Uttar Pradesh provinces",
+    "lat": 25.965,
+    "lng": 76.05,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "553f7517-d97c-4472-9982-8c5d9bfebac0",
+    "name": "Chennai, Cuddalore, Nagapattinam, Pudukottai, Ramanthapuram, Thanjavur, Thiruvallur, Villupuram, Thoothukudi, Tirunelveli Kattabo districts (Tamil Nadu province)",
+    "lat": 9.88,
+    "lng": 78.47,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "b1ffbed1-ba2a-4b43-bd3d-6b8015cffaf1",
+    "name": "Sikkim, West Bengal, Bihar, Assam, Meghalaya provinces",
+    "lat": 27.73,
+    "lng": 88.155,
+    "risk": "high",
+    "type": "earthquake"
+  },
+  {
+    "id": "ca875bd4-3ad9-4ae6-bfef-18abe88fe31a",
+    "name": "West Bengal province",
+    "lat": 22.306,
+    "lng": 88.34,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "a218685c-8357-43ab-8e74-4acddb71d2cf",
+    "name": "Angul, Baleshwar, Baragarh, Bhadrak, Boudh, Cuttack, Deogarh, Dhenkanal, Jajpur, Jagatsinghpur, Jharsuguda, Kendrapara, Khordha, Mayurbhanj, Nayagarh, Nuapada, Puri, Sambalpur districts (Orissa province)",
+    "lat": 20.651,
+    "lng": 86.0,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "60282933-37ad-402d-92da-a5b7f010336a",
+    "name": "Dhemaji district (Assam province), East Garo Hills, South Garo Hills, West Garo Hills districts (Meghalaya province)",
+    "lat": 26.59,
+    "lng": 92.18,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "a94ad232-219a-4dde-8401-6aa060f77bf0",
+    "name": "Barpeta, Bongaigaon, Darrang, Dhemaji, Dhuburi, Golaghat, Jorhat, Karbi Anglong, Sibsagar, Lakhimpur, Nagaon, Sonitpur districts, (Assam province), Begusarai, Bhagalpur, Bhojpur, Buxar, Gopalganj, Katihar, Khagaria, Kishanganj, Lakhisarai, Madhubani, Madhepura, Muzaffarpur, Patna, Purnia, Samastipur, Saran, Saharsa, Sitamarhi, Supaul, Vaishali, Pashchim Champaran districts (Bihar province), Azamgarh, Aligarh, Ambedkar Nagar, Badaun, Ballia, Bara Banki, Bahraich, Bareilly, Bijnor, Faizabad, Farrukhabad, Ghazipur, Gonda, Gorakhpur, Hardoi, Jyotiba Phule Nagar, Kannauj, Kanpur, Kushinagar, Lakhimpur Kheri, Meerut, Muzaffarnagar, Moradabad, Pilibhit, Rampur, Shahjahanpur, Sitapur, Unnao districts (Uttar Pradesh province)",
+    "lat": 26.376,
+    "lng": 86.24,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "52176b60-059f-400b-93ec-84a875c7aa15",
+    "name": "Gonda, Balrampur, Faizabad, Bara Banki districts (Uttar Pradesh province), Rajasthan province",
+    "lat": 28.524,
+    "lng": 80.93,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "b594e1ce-19dc-441a-a6ff-59d6770f3a7a",
+    "name": "Anjaw (70044), Lohit, Changlang, 70045, 70050, Lower Dibang Valley, East Siang, Upper Siang (70051) districts (Arunachal Pradesh province), Assam province",
+    "lat": 26.5659,
+    "lng": 92.44,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "432718cd-d258-404b-b93b-317d0aa99505",
+    "name": "Palchan village (Kullu district, Himachal Pradesh province), Uttarkashi, Rudra Prayag, Chamoli districts (Uttarakhand province), Moradabad district (Uttar Pradesh province), Kathua village (72780 district, Jammu and Kashmir province)",
+    "lat": 30.1135,
+    "lng": 78.85,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "b54e5672-a6ce-43e4-a2e1-d1f9bf5bc314",
+    "name": "Rudra Prayag, Bageshwar districts (Uttarakhand province)",
+    "lat": 31.3,
+    "lng": 76.85,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "b1a5b182-686e-471f-afd8-7c5432a02d89",
+    "name": " Barpeta, Bongaigaon, Darrang, Dhemaji, Dhuburi, Dibrugarh, Goalpara, Golaghat, Jorhat, Kamrup, Lakhimpur, Marigaon, Nagaon, Nalbari, Papum Pare, Sibsagar, Sonitpur, Tinsukia districts (Assam province), Bhagalpur, Darbhanga, Katihar, Khagaria, Muzaffarpur, Patna, Siwan, Supaul districts (Bihar province), Sahibganj district (Jharkhand province), North Sikkim district (Sikkim province), Ballia, Bara Banki, Faizabad districts (Uttar Pradesh province), Murshidabad district (West Bengal province), West Siang, East Siang, Lohit, Papum Pare districts (Arunachal Pradesh province)",
+    "lat": 26.8,
+    "lng": 93.63,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "872493eb-9d76-4839-b6a8-764ea0d62acc",
+    "name": "Uttarakhand, Himachal Pradesh, Uttar Pradesh, Bihar, Karnataka, Kerala, Gujarat, West Bengal provinces",
+    "lat": 32.714,
+    "lng": 76.61,
+    "risk": "medium",
+    "type": "flood"
+  },
+  {
+    "id": "d004a8d5-3179-4a14-a571-0667490302cf",
+    "name": "Administrive unit not available district (Jammu and Kashmir province)",
+    "lat": 33.061,
+    "lng": 75.863,
+    "risk": "medium",
+    "type": "earthquake"
+  },
+  {
+    "id": "4903633a-c061-4a16-a618-ba6661e20a1f",
+    "name": "Dhemaji, Tinsukia, Nagaon, Golaghat, Jorhat, Kamrup, Karimganj, Lakhimpur, Morigaon, Sibsaga, Bongaigaon, Kokrajhar districts (Assam province)",
+    "lat": 27.387,
+    "lng": 94.92,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "a36bb759-5e33-42fd-9cee-87ab1b565ccd",
+    "name": "Chadoora village (72811 district, Jammu and Kashmir province)",
+    "lat": 33.1767,
+    "lng": 76.41,
+    "risk": "medium",
+    "type": "flood"
+  },
+  {
+    "id": "b83861a0-2354-4a00-bcbe-fd47a57b12f1",
+    "name": "Kachchh, Patan, Banas Kantha districts (Gujarat province), Malda, Jalpaiguri districts (West Bengal province), Jorhat, Dhemaji, Lakhimpur, Dhuburi, Darrang, Goalpara, Karbi Anglong, Marigaon districts (Assam province), Manipur, Orissa, Rajasthan, Madhya Pradesh provinces",
+    "lat": 26.2074,
+    "lng": 82.62,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "00df505d-927c-4cef-a451-3babbace62f5",
+    "name": "Bihar, Uttar Pradesh, West Bengal, Sikkim provinces",
+    "lat": 28.2305,
+    "lng": 84.7314,
+    "risk": "medium",
+    "type": "earthquake"
+  },
+  {
+    "id": "1dd8eedd-77ab-45b5-bc46-a4f8246d2294",
+    "name": "Bihar province",
+    "lat": 27.8087,
+    "lng": 86.0655,
+    "risk": "low",
+    "type": "earthquake"
+  },
+  {
+    "id": "be4ffb5b-9f3f-44cd-b75f-2c3065d992b4",
+    "name": "Administrative unit not available districts (Jammu and Kashmir province), Delhi, Punjab provinces",
+    "lat": 36.5244,
+    "lng": 70.3676,
+    "risk": "high",
+    "type": "earthquake"
+  },
+  {
+    "id": "ce0be496-3b82-4f76-b741-58b558df7a30",
+    "name": "Bhadrairuppu village (Virudhunagar district, Tamil Nadu province)",
+    "lat": 10.7121,
+    "lng": 79.18,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "aee64dd9-9f24-450e-b3bd-f9e1afbdcfd6",
+    "name": "Amreli, Rajkot, Surat districts (Gujarat province), Maharashtra province",
+    "lat": 21.8734,
+    "lng": 70.76,
+    "risk": "high",
+    "type": "flood"
+  },
+  {
+    "id": "6c44b0e3-8565-459d-ad5a-ab7e61fd554a",
+    "name": "Barpeta, Sonitpur, Goalpara, Dhemaji, Lakhimpur, Tinsukia, Darrang, Nalbari, Jorhat, Kamrup, Dibrugarh, Nagaon, Bongaigaon districts (Assam province) ",
+    "lat": 26.9195,
+    "lng": 93.87,
+    "risk": "severe",
+    "type": "landslide"
+  },
+  {
+    "id": "1b3b3a4a-baa8-4755-969c-faba6cb9166e",
+    "name": "Assam province",
+    "lat": 26.8946,
+    "lng": 93.75,
+    "risk": "high",
+    "type": "flood"
+  },
+
+  {
+    "id": "76c22eda-9a7c-4769-9285-d09bed45c1a7",
+    "name": "Arunachal Pradesh, Assam, Nagaland provinces",
+    "lat": 27.464,
+    "lng": 95.607,
+    "risk": "low",
+    "type": "flood"
+  },
+  {
+    "id": "6274ee30-1392-494a-9068-e5ea33e5d3e6",
+    "name": "Guwahati city (Kamrup district, Assam province), East Imphal, West Imphal, Senapati, Thoubal, Bishnupur, Tamenglong districts (Manipur province)",
+    "lat": 24.804,
+    "lng": 93.65,
+    "risk": "medium",
+    "type": "earthquake"
+  },
+  {
+    "id": "8eb875ed-1e31-45b0-8863-c028bef5b3d6",
+    "name": "Chamoli, Pithoragahr districts (Uttarakhand province), Assam, Arunachal Pradesh provinces",
+    "lat": 27.068,
+    "lng": 93.95,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "a977c1b7-6de8-477b-975c-72c263360869",
+    "name": "Andhra Pradesh province, Telangana",
+    "lat": 17.654,
+    "lng": 80.34,
+    "risk": "medium",
+    "type": "flood"
+  },
+  {
+    "id": "ebbcd67c-664e-4e47-8080-d77f8c57c247",
+    "name": "Chenai (Tamil Nadu)",
+    "lat": 10.489,
+    "lng": 79.004,
+    "risk": "severe",
+    "type": "flood"
+  },
+  {
+    "id": "c06bda5c-6930-44a6-a4ae-3a58956191fc",
+    "name": "North",
+    "lat": 28.7,
+    "lng": 78.9,
+    "risk": "low",
+    "type": "earthquake"
+  },
+  {
+    "id": "5e504bd4-18b1-4d72-8be0-f6434bf46d7e",
+    "name": "Kamrup and Nagaon (Sonitpur District, northern Assam State)",
+    "lat": 26.781,
+    "lng": 92.457,
+    "risk": "high",
+    "type": "earthquake"
+  },
+  {
+    "id": "2d0821f9-3407-4103-9769-c1d73e32015e",
+    "name": "Odisha Coast",
+    "lat": 20.9517,
+    "lng": 85.0985,
+    "risk": "high",
+    "type": "cyclone"
+  },
+  {
+    "id": "1689d84f-eb3d-4586-b8a7-7723b2c989cd",
+    "name": "Meghalaya Hills",
+    "lat": 25.467,
+    "lng": 91.3662,
+    "risk": "medium",
+    "type": "landslide"
+  },
+  {
+    "id": "f717ce6b-bd0b-44d5-9fb8-987aa4fcbba7",
+    "name": "Rayalaseema Region",
+    "lat": 14.6819,
+    "lng": 77.6006,
+    "risk": "medium",
+    "type": "drought"
+  },
+  {
+    "id": "579d3fde-073e-469b-b0a6-cd820f3865d7",
+    "name": "Vidarbha Region",
+    "lat": 20.95,
+    "lng": 78.9,
+    "risk": "severe",
+    "type": "heatwave"
+  },
+  {
+    "id": "05f26a79-e94b-4c6b-9ae9-c06844e91617",
+    "name": "Nilgiris",
+    "lat": 11.41,
+    "lng": 76.7,
+    "risk": "medium",
+    "type": "landslide"
+  },
+  {
+    "id": "d7827119-6fc8-4397-b84b-4f8a1f70b6f6",
+    "name": "Rajasthan Desert",
+    "lat": 26.9,
+    "lng": 71.9,
+    "risk": "low",
+    "type": "drought"
+  },
+  {
+    "id": "33ea4bb3-8fa7-459f-8c53-8192b794f67f",
+    "name": "Eastern UP",
+    "lat": 26.8,
+    "lng": 83.0,
+    "risk": "medium",
+    "type": "heatwave"
+  },
+  {
+    "id": "d49d52af-612c-48cd-8e15-b7935d36a171",
+    "name": "Coastal Andhra",
+    "lat": 16.5,
+    "lng": 80.64,
+    "risk": "high",
+    "type": "cyclone"
+  },
+  {
+    "id": "a9567df4-3bb3-4d03-8b9d-2e02ec1b7d9a",
+    "name": "Visakhapatnam Area",
+    "lat": 17.689223747696822,
+    "lng": 83.33021266945181,
+    "risk": "high",
+    "type": "cyclone"
+  },
+  {
+    "id": "d9ca42a1-1137-4011-8ec9-e17df994f169",
+    "name": "Chennai Area",
+    "lat": 13.316809774179015,
+    "lng": 80.33027692089425,
+    "risk": "medium",
+    "type": "cyclone"
+  },
+  {
+    "id": "300e9864-52f5-4a09-b1b9-3f1ef8d982e1",
+    "name": "Visakhapatnam Area",
+    "lat": 17.839086472026622,
+    "lng": 82.99145014740363,
+    "risk": "medium",
+    "type": "cyclone"
+  },
+  {
+    "id": "9b2b9a8f-21a8-46e5-89f9-741bb4be06ee",
+    "name": "Visakhapatnam Area",
+    "lat": 17.436398373408604,
+    "lng": 83.29549844682539,
+    "risk": "high",
+    "type": "cyclone"
+  },
+  {
+    "id": "453fee08-dcde-404e-a1d9-bc1872a0e9a8",
+    "name": "Chennai Area",
+    "lat": 13.18032338713136,
+    "lng": 80.26419794718225,
+    "risk": "severe",
+    "type": "cyclone"
+  },
+  {
+    "id": "17750a62-fd61-4fe2-8537-549750c598e7",
+    "name": "Visakhapatnam Area",
+    "lat": 17.388773020989063,
+    "lng": 83.02430642720915,
+    "risk": "low",
+    "type": "cyclone"
+  },
+  {
+    "id": "a0189a2b-0e63-4b9b-a63c-b3f445cef98c",
+    "name": "Visakhapatnam Area",
+    "lat": 17.441913830333608,
+    "lng": 83.0994635853803,
+    "risk": "low",
+    "type": "cyclone"
+  },
+  {
+    "id": "037995e8-f6f4-4673-b29e-629ae7504ce2",
+    "name": "Visakhapatnam Area",
+    "lat": 17.606517821297654,
+    "lng": 83.26254091200781,
+    "risk": "severe",
+    "type": "cyclone"
+  },
+  {
+    "id": "e97d25c6-df95-479b-a0cb-8cec89c04ff0",
+    "name": "Visakhapatnam Area",
+    "lat": 17.607103996781742,
+    "lng": 83.42485192427371,
+    "risk": "high",
+    "type": "cyclone"
+  },
+  {
+    "id": "68eaa2be-33a6-40b1-9f08-a6097572150b",
+    "name": "Kolkata Area",
+    "lat": 22.749016879460896,
+    "lng": 88.14707372356318,
+    "risk": "high",
+    "type": "cyclone"
+  },
+  {
+    "id": "8a2c3354-578c-442d-ab09-6cad2a39c8a9",
+    "name": "Kolkata Area",
+    "lat": 22.68966448487204,
+    "lng": 88.18111386717581,
+    "risk": "high",
+    "type": "cyclone"
+  },
+  {
+    "id": "33ae9371-782a-42ed-ad59-54448c08786f",
+    "name": "Chennai Area",
+    "lat": 13.167405541602665,
+    "lng": 80.36696355558647,
+    "risk": "severe",
+    "type": "cyclone"
+  },
+  {
+    "id": "030178ef-014e-4cbd-8e4e-7744a50f3aa4",
+    "name": "Chennai Area",
+    "lat": 13.017332291969584,
+    "lng": 80.15741532894215,
+    "risk": "medium",
+    "type": "cyclone"
+  },
+  {
+    "id": "38de3139-ed91-4f16-902a-d64f756d3e0f",
+    "name": "Kolkata Area",
+    "lat": 22.55690863960227,
+    "lng": 88.62059980467667,
+    "risk": "high",
+    "type": "cyclone"
+  },
+  {
+    "id": "fdcffffa-d9d0-499c-9d2d-c3b64cd59c54",
+    "name": "Chennai Area",
+    "lat": 13.031001547506545,
+    "lng": 80.35609000416716,
+    "risk": "medium",
+    "type": "cyclone"
+  },
+  {
+    "id": "902dd6b7-b156-4462-9835-6bd8a8869d86",
+    "name": "Manali Area",
+    "lat": 32.203895373327434,
+    "lng": 77.22143189935892,
+    "risk": "high",
+    "type": "landslide"
+  },
+  {
+    "id": "5821d8fc-2a94-43d8-9bca-e66f50280346",
+    "name": "Shimla Area",
+    "lat": 30.968694887798172,
+    "lng": 76.87571014251068,
+    "risk": "severe",
+    "type": "landslide"
+  },
+  {
+    "id": "17651a9d-815c-457d-93f2-6e8b8fae2dbd",
+    "name": "Shimla Area",
+    "lat": 31.116029662671057,
+    "lng": 76.91379209410665,
+    "risk": "severe",
+    "type": "landslide"
+  },
+  {
+    "id": "8fe59ef3-25c8-4683-8d10-1834390e8fd8",
+    "name": "Gangtok Area",
+    "lat": 27.147423322715547,
+    "lng": 88.61690310146197,
+    "risk": "high",
+    "type": "landslide"
+  },
+  {
+    "id": "426a6a19-9d6c-4429-9798-bdcca0e55a6b",
+    "name": "Gangtok Area",
+    "lat": 27.21187567301338,
+    "lng": 88.89526158088941,
+    "risk": "low",
+    "type": "landslide"
+  },
+  {
+    "id": "16b352f7-4b7f-496d-8bdb-b0bfa9cc8b98",
+    "name": "Gangtok Area",
+    "lat": 27.187213858520792,
+    "lng": 88.5216800926491,
+    "risk": "severe",
+    "type": "landslide"
+  },
+  {
+    "id": "fbae13c0-82ba-45ee-abcf-750274e174cf",
+    "name": "Gangtok Area",
+    "lat": 27.13513227363209,
+    "lng": 88.72020782519478,
+    "risk": "medium",
+    "type": "landslide"
+  },
+  {
+    "id": "546c91ea-4b82-49c2-b192-f135ea7c9e14",
+    "name": "Manali Area",
+    "lat": 32.361355576770855,
+    "lng": 77.31046598076394,
+    "risk": "severe",
+    "type": "landslide"
+  },
+  {
+    "id": "4843dc9e-6761-4ee7-8c16-b00108c5f311",
+    "name": "Manali Area",
+    "lat": 32.12347548483357,
+    "lng": 77.47687447098411,
+    "risk": "low",
+    "type": "landslide"
+  },
+  {
+    "id": "9c828a3a-9ed6-46cf-8b86-7eb8d19d1f4d",
+    "name": "Shimla Area",
+    "lat": 31.130777002382967,
+    "lng": 77.15295646855063,
+    "risk": "high",
+    "type": "landslide"
+  },
+  {
+    "id": "6a9d07ab-bb7c-47ed-b497-bcda4006d946",
+    "name": "Manali Area",
+    "lat": 32.194279098647584,
+    "lng": 77.02625753650909,
+    "risk": "medium",
+    "type": "landslide"
+  },
+  {
+    "id": "a5f3769e-2b6e-4207-b12b-3ce36d1b638d",
+    "name": "Shimla Area",
+    "lat": 31.08504763331442,
+    "lng": 77.33608581513685,
+    "risk": "low",
+    "type": "landslide"
+  },
+  {
+    "id": "f93f212b-d7e8-4136-9028-0c78dc05bed0",
+    "name": "Shimla Area",
+    "lat": 31.02166416830508,
+    "lng": 77.23881550009969,
+    "risk": "severe",
+    "type": "landslide"
+  },
+  {
+    "id": "02065c66-78f1-4b41-b223-9634da0b5c89",
+    "name": "Manali Area",
+    "lat": 32.34917810774604,
+    "lng": 77.37416296701774,
+    "risk": "high",
+    "type": "landslide"
+  },
+  {
+    "id": "c246a994-3ad5-48af-a017-8abee41e0567",
+    "name": "Manali Area",
+    "lat": 32.11860712220243,
+    "lng": 77.15059579949369,
+    "risk": "low",
+    "type": "landslide"
+  },
+  {
+    "id": "12594605-373c-41a2-829b-0c25ec6f87c5",
+    "name": "Jodhpur Area",
+    "lat": 26.382104320210164,
+    "lng": 73.21335019317657,
+    "risk": "low",
+    "type": "drought"
+  },
+  {
+    "id": "7270568b-0095-4617-885a-672959a2f6bb",
+    "name": "Jodhpur Area",
+    "lat": 26.093968631767513,
+    "lng": 73.04791601627352,
+    "risk": "severe",
+    "type": "drought"
+  },
+  {
+    "id": "2bf971f8-db88-4e3b-872b-3481cac2aa56",
+    "name": "Jodhpur Area",
+    "lat": 26.385046686963484,
+    "lng": 73.0065750071232,
+    "risk": "severe",
+    "type": "drought"
+  },
+  {
+    "id": "abeeb813-4d7f-4483-90e5-81078e4095ea",
+    "name": "Bikaner Area",
+    "lat": 27.857791065411618,
+    "lng": 73.12680041910559,
+    "risk": "low",
+    "type": "drought"
+  },
+  {
+    "id": "7bf85197-79ac-4383-a083-bd0b3b524c1f",
+    "name": "Bikaner Area",
+    "lat": 28.032934433238943,
+    "lng": 73.46604604891262,
+    "risk": "medium",
+    "type": "drought"
+  },
+  {
+    "id": "223a29f5-f109-44d3-bc70-b24ae4fc4695",
+    "name": "Nagaur Area",
+    "lat": 27.01311020751718,
+    "lng": 73.93961371105674,
+    "risk": "medium",
+    "type": "drought"
+  },
+  {
+    "id": "e42416b0-cc9e-4642-b35d-70dbdb81cbfc",
+    "name": "Bikaner Area",
+    "lat": 27.964110558958925,
+    "lng": 73.44690881183652,
+    "risk": "high",
+    "type": "drought"
+  },
+  {
+    "id": "bfd02571-5e58-47e7-b91c-4a5930f7b1cc",
+    "name": "Bikaner Area",
+    "lat": 28.242948335489768,
+    "lng": 73.20827395078359,
+    "risk": "severe",
+    "type": "drought"
+  },
+  {
+    "id": "df1fbcf6-2235-4027-9b5a-d5c5eec9b87d",
+    "name": "Nagaur Area",
+    "lat": 27.18504727380213,
+    "lng": 74.01814470725297,
+    "risk": "high",
+    "type": "drought"
+  },
+  {
+    "id": "7ce1ed8e-9df8-4e66-8c7a-3360046c8ee8",
+    "name": "Nagaur Area",
+    "lat": 26.92133972717506,
+    "lng": 73.68693320935083,
+    "risk": "medium",
+    "type": "drought"
+  },
+  {
+    "id": "d06c4a9b-f937-4a8d-928b-a61ef1c8d043",
+    "name": "Bikaner Area",
+    "lat": 28.05749584199385,
+    "lng": 73.14429423024418,
+    "risk": "high",
+    "type": "drought"
+  },
+  {
+    "id": "bfc8de91-b397-4a6d-abe3-78b570ca0854",
+    "name": "Bikaner Area",
+    "lat": 27.963877728634348,
+    "lng": 73.11719766367366,
+    "risk": "high",
+    "type": "drought"
+  },
+  {
+    "id": "b050c22e-aded-43a9-bf86-296d1112ec1f",
+    "name": "Bikaner Area",
+    "lat": 28.27458840403292,
+    "lng": 73.18716357357101,
+    "risk": "medium",
+    "type": "drought"
+  },
+  {
+    "id": "d45650b0-9c3c-4097-81b2-d4c7b2e5b347",
+    "name": "Jodhpur Area",
+    "lat": 26.461363509862068,
+    "lng": 73.13195775563915,
+    "risk": "low",
+    "type": "drought"
+  },
+  {
+    "id": "aa14244d-c4dc-40c1-87ca-2c66fd0fc276",
+    "name": "Bikaner Area",
+    "lat": 27.759064983464267,
+    "lng": 73.59158797988782,
+    "risk": "low",
+    "type": "drought"
+  },
+  {
+    "id": "15e3525d-d7e4-4cd2-89ca-865de3ab287c",
+    "name": "Patna Area",
+    "lat": 25.394414111644178,
+    "lng": 84.97015107717374,
+    "risk": "severe",
+    "type": "heatwave"
+  },
+  {
+    "id": "5f3785df-3b33-41ec-bf37-cb947229a71a",
+    "name": "Lucknow Area",
+    "lat": 26.785108088726425,
+    "lng": 80.97003525194346,
+    "risk": "medium",
+    "type": "heatwave"
+  },
+  {
+    "id": "13ac96aa-beae-4544-bd31-c561b71df6a8",
+    "name": "Lucknow Area",
+    "lat": 26.940031529674663,
+    "lng": 81.14790250357517,
+    "risk": "medium",
+    "type": "heatwave"
+  },
+  {
+    "id": "82e509b1-8c45-4d9a-b445-892421954963",
+    "name": "Patna Area",
+    "lat": 25.682863569616277,
+    "lng": 85.25985863235458,
+    "risk": "high",
+    "type": "heatwave"
+  },
+  {
+    "id": "2924a409-a7ff-4712-b656-b49e7d05485e",
+    "name": "Patna Area",
+    "lat": 25.843611601893507,
+    "lng": 85.12001299264637,
+    "risk": "severe",
+    "type": "heatwave"
+  },
+  {
+    "id": "da46c9eb-69d6-42f3-8ffb-18a956ad717f",
+    "name": "Patna Area",
+    "lat": 25.536276051939744,
+    "lng": 85.12857253945278,
+    "risk": "medium",
+    "type": "heatwave"
+  },
+  {
+    "id": "f3d550d8-6cf5-4e7b-9821-b0a7ffcc53a7",
+    "name": "Jaipur Area",
+    "lat": 26.992250325414684,
+    "lng": 75.58462580616464,
+    "risk": "medium",
+    "type": "heatwave"
+  },
+  {
+    "id": "0dfedf9a-9d0e-45fc-8cdf-11748294d899",
+    "name": "Jaipur Area",
+    "lat": 26.8907798555402,
+    "lng": 75.8972296793643,
+    "risk": "medium",
+    "type": "heatwave"
+  },
+  {
+    "id": "6d9faa97-0872-45dd-8d14-365133186734",
+    "name": "Jaipur Area",
+    "lat": 27.189795256974563,
+    "lng": 75.58331050026918,
+    "risk": "high",
+    "type": "heatwave"
+  },
+  {
+    "id": "a4b2f0e4-3997-4741-86ce-0e2a7cb3c6f4",
+    "name": "Jaipur Area",
+    "lat": 26.790889919087842,
+    "lng": 75.60529362690863,
+    "risk": "high",
+    "type": "heatwave"
+  },
+  {
+    "id": "ad5662ff-076c-4213-90ee-180cd7508dca",
+    "name": "Patna Area",
+    "lat": 25.719548938961353,
+    "lng": 84.98960210605826,
+    "risk": "high",
+    "type": "heatwave"
+  },
+  {
+    "id": "d22024e9-ebf6-4a32-a08e-520b4c91b5be",
+    "name": "Jaipur Area",
+    "lat": 26.861868750517797,
+    "lng": 75.81221219010806,
+    "risk": "medium",
+    "type": "heatwave"
+  },
+  {
+    "id": "9e60891d-880b-4d75-b716-5311ddd64a88",
+    "name": "Jaipur Area",
+    "lat": 27.002616716018665,
+    "lng": 75.91785390867503,
+    "risk": "severe",
+    "type": "heatwave"
+  },
+  {
+    "id": "dc96e50d-c602-402e-9565-a65ae8d0baaf",
+    "name": "Patna Area",
+    "lat": 25.52649642853885,
+    "lng": 84.84990845842866,
+    "risk": "severe",
+    "type": "heatwave"
+  },
+  {
+    "id": "9e33209e-52f5-4472-a765-a991f5cac27b",
+    "name": "Patna Area",
+    "lat": 25.70677551769735,
+    "lng": 85.27135487668369,
+    "risk": "high",
+    "type": "heatwave"
+  }
+]

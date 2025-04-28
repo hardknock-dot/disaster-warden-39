@@ -55,8 +55,8 @@ export default function Dashboard() {
           />
           <StatusCard 
             title="Prediction Accuracy"
-            value="92.8%"
-            trend={{ value: 1.5, isPositive: true }}
+            value="87.91%"
+            trend={{ value: 1.8, isPositive: true }}
             icon={<BarChart3 className="h-5 w-5" />}
           />
         </div>

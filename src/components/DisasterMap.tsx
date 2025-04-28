@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { DisasterType } from "./DisasterTypeFilter";
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import indiaLocations from "./india_disaster_maplocations.json"; // <-- Your JSON file
 
 type MapLocation = {
   id: string;
@@ -13,81 +14,13 @@ type MapLocation = {
   type: DisasterType;
 };
 
-// India-specific location data
-const sampleLocations: MapLocation[] = [
-  {
-    id: "loc1",
-    name: "Mumbai, Maharashtra",
-    lat: 19.0760,
-    lng: 72.8777,
-    risk: "high",
-    type: "flood",
-  },
-  {
-    id: "loc2",
-    name: "Chennai, Tamil Nadu",
-    lat: 13.0827,
-    lng: 80.2707,
-    risk: "medium",
-    type: "cyclone",
-  },
-  {
-    id: "loc3",
-    name: "Uttarakhand",
-    lat: 30.0668,
-    lng: 79.0193,
-    risk: "high",
-    type: "landslide",
-  },
-  {
-    id: "loc4",
-    name: "Gujarat Coast",
-    lat: 22.2587,
-    lng: 71.1924,
-    risk: "severe",
-    type: "cyclone",
-  },
-  {
-    id: "loc5",
-    name: "Delhi NCR",
-    lat: 28.6139,
-    lng: 77.2090,
-    risk: "medium",
-    type: "heatwave",
-  },
-  {
-    id: "loc6",
-    name: "Bihar",
-    lat: 25.0961,
-    lng: 85.3131,
-    risk: "high",
-    type: "flood",
-  },
-  {
-    id: "loc7",
-    name: "Assam",
-    lat: 26.2006,
-    lng: 92.9376,
-    risk: "severe",
-    type: "flood",
-  },
-  {
-    id: "loc8",
-    name: "Kashmir",
-    lat: 34.0837,
-    lng: 74.7973,
-    risk: "medium",
-    type: "earthquake",
-  },
-];
-
 type DisasterMapProps = {
   selectedTypes?: DisasterType[];
   className?: string;
 };
 
 export function DisasterMap({ selectedTypes = [], className }: DisasterMapProps) {
-  const [locations, setLocations] = useState<MapLocation[]>(sampleLocations);
+  const [locations, setLocations] = useState<MapLocation[]>(indiaLocations as MapLocation[]);
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<L.Map | null>(null);
   const markers = useRef<L.Marker[]>([]);

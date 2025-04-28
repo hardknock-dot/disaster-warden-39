@@ -45,6 +45,46 @@ const sampleAlerts: Alert[] = [
     level: "low",
     type: "earthquake",
   },
+  {
+    id: "alert5",
+    title: "Heatwave Advisory",
+    location: "Rajasthan",
+    timestamp: "2023-10-11T16:00:00",
+    level: "medium",
+    type: "heatwave",
+  },
+  {
+    id: "alert6",
+    title: "Drought Warning",
+    location: "Maharashtra",
+    timestamp: "2023-10-10T12:00:00",
+    level: "high",
+    type: "drought",
+  },
+  {
+    id: "alert7",
+    title: "Flood Advisory",
+    location: "Kerala",
+    timestamp: "2023-10-09T10:30:00",
+    level: "low",
+    type: "flood",
+  },
+  {
+    id: "alert8",
+    title: "Cyclone Warning",
+    location: "Tamil Nadu Coast",
+    timestamp: "2023-10-08T15:45:00",
+    level: "severe",
+    type: "cyclone",
+  },
+  {
+    id: "alert9",
+    title: "Landslide Advisory",
+    location: "Uttarakhand",
+    timestamp: "2023-10-07T13:00:00",
+    level: "medium",
+    type: "landslide",
+  },
 ];
 
 type RecentAlertsProps = {
